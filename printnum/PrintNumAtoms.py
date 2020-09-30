@@ -7,8 +7,8 @@ def PrintNumAtoms(smiles):
     try:
 #        mol = Chem.AddHs(Chem.MolFromSmiles(smiles))
         mol = Chem.MolFromSmiles(smiles)
-        numberAtoms = mol.GetNumAtoms()
+        NumberAtoms = mol.GetNumAtoms()
         
-        return print(numberAtoms)
+        return print(NumberAtoms)
     except:
         return None
