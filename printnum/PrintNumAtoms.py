@@ -3,7 +3,7 @@ Printing number of atoms in molecule
 '''
 from rdkit import Chem
 
-def PrintNumAtoms(smiles):
+def __init__(smiles):
     try:
 #        mol = Chem.AddHs(Chem.MolFromSmiles(smiles))
         mol = Chem.MolFromSmiles(smiles)
