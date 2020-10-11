@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="printnum",
-    version="0.0.3",
+    version="0.0.4",
     author="alena-lark",
     author_email="AllyLarck@yandex.com",
     description="Printing a number of atoms in a molecule",
