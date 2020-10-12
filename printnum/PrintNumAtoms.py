@@ -3,9 +3,7 @@ Printing number of atoms in molecule
 '''
 import numpy as np
 
-def PrintNumAtom(num):
-    
+def PrintNumAtoms(num):
     a = np.array([1, 2, 3, num])
-
-    return print("inisial step", a)
+    return a
     

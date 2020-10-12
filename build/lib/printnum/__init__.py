@@ -1,3 +1,1 @@
-# import a function
-# if file-name, then not recognize
-import PrintNumAtom
+from .PrintNumAtoms import PrintNumAtoms
