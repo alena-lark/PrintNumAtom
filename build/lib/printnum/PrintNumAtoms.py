@@ -1,14 +1,11 @@
 '''
 Printing number of atoms in molecule
 '''
-from rdkit import Chem
+import numpy as np
 
-def PrintNumAtoms(smiles):
-    try:
-#        mol = Chem.AddHs(Chem.MolFromSmiles(smiles))
-        mol = Chem.MolFromSmiles(smiles)
-        NumberAtoms = mol.GetNumAtoms()
-        
-        return print(NumberAtoms)
-    except:
-        return None
+def printnum():
+    
+    a = np.array([1, 2, 3])
+
+    return print("inisial step", a)
+    
