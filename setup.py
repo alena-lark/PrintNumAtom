@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name="printnum",
-    version="0.1.0",
+    version="0.1.1",
     author="alena-lark",
     author_email="AllyLarck@yandex.com",
     description="Printing a number of atoms in a molecule",
