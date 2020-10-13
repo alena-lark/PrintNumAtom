@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name="printnum",
-    version="0.1.3",
+    version="0.1.4",
     author="alena-lark",
     author_email="AllyLarck@yandex.com",
     description="Printing a number of atoms in a molecule",
@@ -18,6 +18,6 @@ setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    install_requires=['numpy'],
+    install_requires=['numpy', 'rdkit'],
     python_requires='>=3.7'
     )
