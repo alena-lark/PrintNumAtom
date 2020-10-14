@@ -5,7 +5,7 @@ import numpy as np
 from rdkit import Chem
 
 def PrintNumAtoms(smiles):
-    a = np.array([1, 2, 3])
+    a = np.array([1, 2, 3, 4])
     mol = Chem.MolFromSmiles(smiles)
     return a, mol
     
